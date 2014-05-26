@@ -1,0 +1,15 @@
+{
+  // http://www.jshint.com/docs/options
+  "curly"         : true,
+  "devel"         : true,
+  "eqeqeq"        : true,
+  "strict"        : true,
+  "undef"         : true,
+  "unused"        : true,
+  "browser"       : true,
+  "globals" : {
+    "requirejs" : true,
+    "require"   : true,
+    "define"    : true
+  }
+}
