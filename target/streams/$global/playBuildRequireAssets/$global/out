@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0mRequireJS optimization has begun...[0m
+[0m[[0minfo[0m] [0mapp.build.js:[0m
+[0m[[0minfo[0m] [0m({appDir: "javascripts",[0m
+[0m[[0minfo[0m] [0m          baseUrl: ".",[0m
+[0m[[0minfo[0m] [0m          dir:"javascripts-min", mainConfigFile: "javascripts/build.js", modules: [{name: "main"}]})[0m
+[0m[[0minfo[0m] [0mRequireJS optimization finished.[0m

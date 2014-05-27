@@ -1,0 +1,21 @@
+@()<!DOCTYPE html>
+<html>
+  <head>
+    <title data-ng-bind="pageTitle"></title>
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+    <link rel="stylesheet" media="screen" href="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("bootstrap.min.css"))" />
+    @*-- Add More CSS here -- *@
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    @import play.api.Play.current
+    <script>
+     @Html(org.webjars.RequireJS.getSetupJavaScript(routes.CdnWebJarAssets.at("").url, current.configuration.getString("contentUrl").orNull))
+    </script>
+    <script data-main="@routes.Assets.at(helper.mainScriptSrc(scriptName = "main"))" src="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("require.js"))"></script>
+  </head>
+  <body>
+    @* -- Main Content -- *@
+    <div class="container" data-ng-cloak>
+      <div data-ng-view></div>
+    </div>
+  </body>
+</html>

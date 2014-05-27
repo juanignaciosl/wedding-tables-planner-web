@@ -1,0 +1,15 @@
+<span class="guest" ui-draggable="true" drag="guest.name" on-drop-success="dropSuccessHandler($event,$index,guest)"
+  ui-on-Drop="onDrop($event, $data, guest)">{{ guest.name }} 
+  <span class="relationship loves" ng-show="guest.loves.length > 0">
+      <span class="related-guest glyphicon glyphicon-heart clickable" ng-repeat="loves in guest.loves" 
+          ng-click="guest.removeLoved(loves)" title="Remove relationship"> {{ loves.name }}</span>
+  </span>
+  <span class="relationship hates" ng-show="guest.hates.length > 0">
+      <span class="related-guest glyphicon glyphicon-remove clickable"  ng-repeat="hates in guest.hates" 
+          ng-click="guest.removeHated(hates)" title="Remove relationship"> {{ hates.name }}</span>
+  </span>
+  <span class="relationship knows" ng-show="guest.knows.length > 0">
+      <span class="related-guest glyphicon glyphicon-circle clickable"  ng-repeat="knows in guest.knows" 
+          ng-click="guest.removeKnown(knows)" title="Remove relationship"> {{ knows.name }}</span>
+  </span>
+<span class="glyphicon glyphicon-minus clickable" ng-click="removeGuest()" title="Remove guest"></span></span>
