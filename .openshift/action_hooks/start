@@ -13,7 +13,7 @@ fi
 
 LOG_FILE="${OPENSHIFT_DIY_LOG_DIR}play.log"
 
-chmod +x ${OPENSHIFT_REPO_DIR}target/start
+chmod +x ${OPENSHIFT_REPO_DIR}target/universal/stage/bin/play-with-angular-requirejs
 
 APP_COMMAND="${OPENSHIFT_REPO_DIR}target/start $PLAY_PARAMS "\
 "-Dhttp.port=${OPENSHIFT_DIY_PORT} "\
