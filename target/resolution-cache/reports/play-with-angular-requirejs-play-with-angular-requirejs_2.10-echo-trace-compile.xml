@@ -7,7 +7,7 @@
 		revision="2.2.2"
 		conf="echo-trace-compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20140527184814"/>
+		date="20140527212820"/>
 	<dependencies>
 		<module organisation="com.typesafe.trace" name="trace-play-2.2.2">
 			<revision name="0.1.1" status="release" pubdate="20140325173150" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
