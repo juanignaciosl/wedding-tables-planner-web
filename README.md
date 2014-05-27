@@ -1,5 +1,7 @@
 # Wedding Tables Planner web
 
+You can try [Wedding Tables Planner online at OpenShift](http://www.juanignaciosl.com/ingenieria-del-software/wedding-tables-planner).
+
 This is a small web application which you can use to arrange your guests. 
 You can set "known", "loved" and "hated" relationships, the number and size of the tables, and the planner will arrange
 loving guests together, hated at different tables, and will try to keep known people as together as possible, minimizing the
@@ -9,7 +11,7 @@ You can get [the core](https://github.com/juanignaciosl/wedding-tables-planner) 
 
 The site is based on [Play+AngularJS+RequireJS Scala Activator template](http://typesafe.com/activator/template/play-with-angular-requirejs), so you might find some boilerplate example code.
 
-## Trying It Out
+## Trying It Out yourself
 
 * Run via `activator run`
 * Go to [localhost:9000](http://localhost:9000)
