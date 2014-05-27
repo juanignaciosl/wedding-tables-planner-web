@@ -13,6 +13,7 @@ fi
 
 LOG_FILE="${OPENSHIFT_DIY_LOG_DIR}play.log"
 
+export PATH=$OPENSHIFT_DATA_DIR/jdk1.8.0_05/bin:$PATH
 export JAVA_HOME="$OPENSHIFT_DATA_DIR/jdk/jdk1.8.0_05"
 
 chmod +x ${OPENSHIFT_REPO_DIR}target/universal/stage/bin/play-with-angular-requirejs
