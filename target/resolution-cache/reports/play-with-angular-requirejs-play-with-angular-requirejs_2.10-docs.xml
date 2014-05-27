@@ -7,14 +7,14 @@
 		revision="2.2.2"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20140527174556"/>
+		date="20140527180029"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-docs_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063202" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
-				<metadata-artifact status="successful" details="" size="1011" time="574" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-docs_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-docs_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.2/play-docs_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<metadata-artifact status="no" details="" size="2548" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-docs_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.2/play-docs_2.10-2.2.2.pom"/>
 				<caller organisation="play-with-angular-requirejs" name="play-with-angular-requirejs_2.10" conf="docs" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play-docs_2.10" type="jar" ext="jar" status="successful" details="" size="9966571" time="4357" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-docs_2.10/jars/play-docs_2.10-2.2.2.jar">
+					<artifact name="play-docs_2.10" type="jar" ext="jar" status="no" details="" size="9966571" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-docs_2.10/jars/play-docs_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-docs_2.10/2.2.2/play-docs_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -126,11 +126,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063059" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
-				<metadata-artifact status="successful" details="" size="7703" time="581" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.2/play_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063059" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="7248" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.2/play_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-docs_2.10" conf="default, compile, runtime, master" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play_2.10" type="jar" ext="jar" status="successful" details="" size="3777528" time="3582" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.2.2.jar">
+					<artifact name="play_2.10" type="jar" ext="jar" status="no" details="" size="3777528" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.10/2.2.2/play_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -392,11 +392,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-json_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063102" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
-				<metadata-artifact status="successful" details="" size="2549" time="584" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-json_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-json_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.2/play-json_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063102" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="3694" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-json_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.2/play-json_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play-json_2.10" type="jar" ext="jar" status="successful" details="" size="627240" time="1053" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.2.2.jar">
+					<artifact name="play-json_2.10" type="jar" ext="jar" status="no" details="" size="627240" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.2/play-json_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -480,22 +480,22 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-datacommons_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063104" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
-				<metadata-artifact status="successful" details="" size="849" time="595" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.2/play-datacommons_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063104" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="2428" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.2/play-datacommons_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play-datacommons_2.10" type="jar" ext="jar" status="successful" details="" size="5197" time="572" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.2.2.jar">
+					<artifact name="play-datacommons_2.10" type="jar" ext="jar" status="no" details="" size="5197" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.2/play-datacommons_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-functional_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063103" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
-				<metadata-artifact status="successful" details="" size="846" time="577" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-functional_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-functional_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.2/play-functional_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063103" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="2425" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-functional_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.2/play-functional_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play-functional_2.10" type="jar" ext="jar" status="successful" details="" size="366839" time="784" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.2.2.jar">
+					<artifact name="play-functional_2.10" type="jar" ext="jar" status="no" details="" size="366839" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.2/play-functional_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -542,12 +542,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-iteratees_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063101" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
-				<metadata-artifact status="successful" details="" size="1222" time="595" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.2/play-iteratees_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063101" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.2/play-iteratees_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="successful" details="" size="716669" time="1439" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.2.2.jar">
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="no" details="" size="716669" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.2/play-iteratees_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -580,11 +580,11 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="templates_2.10">
-			<revision name="2.2.2" status="release" pubdate="20140228063100" resolver="Typesafe Releases" artresolver="Typesafe Releases" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
-				<metadata-artifact status="successful" details="" size="1056" time="572" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/templates_2.10/ivy-2.2.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/templates_2.10/ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.2/templates_2.10-2.2.2.pom"/>
+			<revision name="2.2.2" status="release" pubdate="20140228063100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/templates_2.10/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.2/templates_2.10-2.2.2.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.10" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="templates_2.10" type="jar" ext="jar" status="successful" details="" size="39141" time="590" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/templates_2.10/jars/templates_2.10-2.2.2.jar">
+					<artifact name="templates_2.10" type="jar" ext="jar" status="no" details="" size="39141" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.play/templates_2.10/jars/templates_2.10-2.2.2.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/templates_2.10/2.2.2/templates_2.10-2.2.2.jar"/>
 					</artifact>
 				</artifacts>

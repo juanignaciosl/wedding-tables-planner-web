@@ -1,6 +1,6 @@
 // @SOURCE:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes
 // @HASH:3390e5314f024afc5c2dfacf935a1366f4a0b38e
-// @DATE:Tue May 27 17:45:57 CEST 2014
+// @DATE:Tue May 27 18:00:30 CEST 2014
 
 
 import play.core._

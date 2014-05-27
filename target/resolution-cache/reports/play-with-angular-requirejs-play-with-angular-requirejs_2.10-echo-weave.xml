@@ -7,15 +7,15 @@
 		revision="2.2.2"
 		conf="echo-weave"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20140527174556"/>
+		date="20140527180029"/>
 	<dependencies>
 		<module organisation="org.aspectj" name="aspectjweaver">
-			<revision name="1.7.3" status="release" pubdate="20130622021636" resolver="public" artresolver="public" homepage="http://www.aspectj.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+			<revision name="1.7.3" status="release" pubdate="20130622021636" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
-				<metadata-artifact status="successful" details="" size="1045" time="478" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.aspectj/aspectjweaver/ivy-1.7.3.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.aspectj/aspectjweaver/ivy-1.7.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom"/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.aspectj/aspectjweaver/ivy-1.7.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom"/>
 				<caller organisation="play-with-angular-requirejs" name="play-with-angular-requirejs_2.10" conf="echo-weave" rev="1.7.3" rev-constraint-default="1.7.3" rev-constraint-dynamic="1.7.3" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="aspectjweaver" type="jar" ext="jar" status="successful" details="" size="1829108" time="1133" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.7.3.jar">
+					<artifact name="aspectjweaver" type="jar" ext="jar" status="no" details="" size="1829108" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.7.3.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar"/>
 					</artifact>
 				</artifacts>
