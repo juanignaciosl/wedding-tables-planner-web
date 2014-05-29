@@ -15,3 +15,16 @@ The site is based on [Play+AngularJS+RequireJS Scala Activator template](http://
 
 * Run via `activator run`
 * Go to [localhost:9000](http://localhost:9000)
+
+
+## OpenShift deployment
+
+This is a Play app, ready to run in a DIY OpenShift Cartridge. It will install JDK 8 at first start.
+
+Create an account at [OpenShift](http://openshift.redhat.com/).
+
+Create a DIY app:
+
+``rhc app-create weddingtablesplanner diy-0.1 --from-code git://github.com/juanignaciosl/wedding-tables-planner-web.git``
+
+You can then use your app at http://weddingtablesplanner-your_domain.rhcloud.com . First boot might take some minutes, since it has to download and install JDK8.
