@@ -7,14 +7,14 @@
 		revision="2.2.2"
 		conf="echo-sigar"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar"
-		date="20140527212820"/>
+		date="20140529182627"/>
 	<dependencies>
 		<module organisation="com.typesafe.trace" name="trace-sigar-libs">
 			<revision name="0.1.1" status="release" pubdate="20140325173155" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
-				<metadata-artifact status="no" details="" size="2245" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.trace/trace-sigar-libs/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.1/trace-sigar-libs-0.1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2245" time="0" location="/Users/juanignaciosl/.ivy2/cache/com.typesafe.trace/trace-sigar-libs/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.1/trace-sigar-libs-0.1.1.pom"/>
 				<caller organisation="play-with-angular-requirejs" name="play-with-angular-requirejs_2.10" conf="echo-sigar" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="2.2.2"/>
 				<artifacts>
-					<artifact name="trace-sigar-libs" type="jar" ext="jar" status="no" details="" size="2099396" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/com.typesafe.trace/trace-sigar-libs/jars/trace-sigar-libs-0.1.1.jar">
+					<artifact name="trace-sigar-libs" type="jar" ext="jar" status="no" details="" size="2099396" time="0" location="/Users/juanignaciosl/.ivy2/cache/com.typesafe.trace/trace-sigar-libs/jars/trace-sigar-libs-0.1.1.jar">
 						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/trace/trace-sigar-libs/0.1.1/trace-sigar-libs-0.1.1.jar"/>
 					</artifact>
 				</artifacts>

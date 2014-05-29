@@ -22,18 +22,18 @@
 
   <div class="row">
     <div class="col-md-4">
-      <div class="input-group">
+      <div ng-class="['input-group', newGuestGroupName.length > 0 ? '' : 'disabled']">
         <span class="input-group-addon">New guest group</span> <input ng-model="newGuestGroupName" type="text"
           class="form-control" placeholder="Unique group name"> <span class="input-group-addon clickable"
-          ng-click="addGuestGroup()"><span class="glyphicon glyphicon-plus"></span></span>
+          ng-click="newGuestGroupName.length > 0 && addGuestGroup()"><span class="glyphicon glyphicon-plus"></span></span>
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="input-group">
+      <div ng-class="['input-group', newGuestName.length > 0 ? '' : 'disabled']">
         <span class="input-group-addon">New guest</span> <input ng-model="newGuestName" type="text" class="form-control"
-          placeholder="Unique name"> <span class="input-group-addon clickable" ng-click="addGuest()"><span
-          class="glyphicon glyphicon-plus"></span></span>
+          placeholder="Unique name"> <span class="input-group-addon clickable"
+          ng-click="newGuestName.length > 0 && addGuest()"><span class="glyphicon glyphicon-plus"></span></span>
       </div>
     </div>
   </div>
@@ -55,8 +55,10 @@
           other?
         </p>
         <button type="button" class="btn btn-info" ng-click="addRelationship('knows')">Known</button>
-        <button type="button" class="btn btn-success" ng-click="addRelationship('loves')">Love (will be sat at the same table)</button>
-        <button type="button" class="btn btn-danger"  ng-click="addRelationship('hates')">Hate (won't be sat at the same table)</button>
+        <button type="button" class="btn btn-success" ng-click="addRelationship('loves')">Love (will be sat at
+          the same table)</button>
+        <button type="button" class="btn btn-danger" ng-click="addRelationship('hates')">Hate (won't be sat at
+          the same table)</button>
         <p>The site will try to sit in the same table as many known guests as possible.</p>
       </div>
     </div>
@@ -117,8 +119,11 @@
       </div>
     </div>
     <div ng-repeat="capacityAndGuests in capacitiesAndGuests">
-      <div class="table">Table for {{ capacityAndGuests.capacity }}: <span class="guest" ng-repeat="guest in capacityAndGuests.guests">{{ guest }}; </span> </div>
+      <div class="table">
+        Table for {{ capacityAndGuests.capacity }}: <span class="guest" ng-repeat="guest in capacityAndGuests.guests">{{
+          guest }}; </span>
+      </div>
     </div>
   </div>
-  
+
 </div>

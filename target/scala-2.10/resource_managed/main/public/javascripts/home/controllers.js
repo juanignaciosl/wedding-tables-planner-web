@@ -122,6 +122,11 @@ define([ "angular" ], function(angular) {
 		};
 
 		$scope.addGuest = function() {
+			if($scope.newGuestName === '') {
+				alert('You must enter a guest name');
+				return false;
+			}
+			
 			var newGuest = guest({
 				name : $scope.newGuestName
 			});
@@ -175,6 +180,11 @@ define([ "angular" ], function(angular) {
 		}
 
 		$scope.addGuestGroup = function() {
+			if($scope.newGuestGroupName === '') {
+				alert('You must enter a guest group name');
+				return false;
+			}
+			
 			$scope.guestGroups.push(group({
 				name : $scope.newGuestGroupName
 			}));

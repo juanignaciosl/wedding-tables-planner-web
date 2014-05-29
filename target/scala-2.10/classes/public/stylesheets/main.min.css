@@ -11,5 +11,6 @@ body{margin-top:40px}
 .guest-group .guest .relationship.knows{color:#5bc0de}
 .guest-relationship,.waiting-modal{padding:20px}.guest-relationship .btn,.waiting-modal .btn{width:100%;margin-bottom:4px}
 .clickable{cursor:pointer}
+.disabled .clickable{cursor:not-allowed;opacity:0.5}
 .table{margin-right:10px}
 .done-button{width:100%;font-size:150%}
