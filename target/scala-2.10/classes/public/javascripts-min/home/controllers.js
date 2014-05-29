@@ -122,6 +122,11 @@ define([ "angular" ], function(angular) {
 		};
 
 		$scope.addGuest = function() {
+			if($scope.newGuestName === '') {
+				alert('You must enter a guest name');
+				return false;
+			}
+			
 			var newGuest = guest({
 				name : $scope.newGuestName
 			});
@@ -175,6 +180,11 @@ define([ "angular" ], function(angular) {
 		}
 
 		$scope.addGuestGroup = function() {
+			if($scope.newGuestGroupName === '') {
+				alert('You must enter a guest group name');
+				return false;
+			}
+			
 			$scope.guestGroups.push(group({
 				name : $scope.newGuestGroupName
 			}));
@@ -200,7 +210,9 @@ define([ "angular" ], function(angular) {
 					keyboard : false
 				});
 				plannerService.plan(guestsAndTables()).then(function(response) {
-					$scope.capacitiesAndGuests = response;
+					$scope.hardScore = response.hardScore;
+					$scope.softScore = response.softScore;
+					$scope.capacitiesAndGuests = response.tableCompositions;
 					$('#waiting-modal').modal('hide');
 				});
 			}

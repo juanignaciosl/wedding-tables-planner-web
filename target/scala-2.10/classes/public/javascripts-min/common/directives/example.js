@@ -50,10 +50,11 @@ define([ "angular" ], function(angular) {
 					}
 				};
 				$scope.dropSuccessHandler = function(event, index, guest) {
-					
 				};
 				$scope.onDrop = function($event, $data) {
-					console.log('drop', $data);
+					if($data === guest.name) {
+						return false;
+					}					
 					$scope.$emit('guestsRelationship', $data, guest);
 				};
 			}
