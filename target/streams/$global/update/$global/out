@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fd25ef7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7752df03[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -9252,7 +9252,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.trace#trace-sigar-libs;0.1.1!trace-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5680ms :: artifacts dl 139ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7559ms :: artifacts dl 157ms[0m
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 compile produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 runtime produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 test produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-test.xml[0m
@@ -9270,5 +9270,5 @@
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 echo-trace-test produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-echo-trace-test.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 echo-weave produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-echo-weave.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-with-angular-requirejs#play-with-angular-requirejs_2.10;2.2.2 echo-sigar produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/play-with-angular-requirejs-play-with-angular-requirejs_2.10-echo-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5680ms resolve - 139ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7559ms resolve - 157ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,6 +1,6 @@
 // @SOURCE:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes
 // @HASH:3390e5314f024afc5c2dfacf935a1366f4a0b38e
-// @DATE:Thu May 29 20:46:49 CEST 2014
+// @DATE:Thu May 29 20:50:36 CEST 2014
 
 package controllers;
 
