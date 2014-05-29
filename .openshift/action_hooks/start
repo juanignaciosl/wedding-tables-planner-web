@@ -1,7 +1,6 @@
 #!/bin/bash
 
 export JDK8_PATH=$OPENSHIFT_DATA_DIR/jdk1.8.0_05/bin
-export PATH=$JDK8_PATH:$PATH
 export JAVA_HOME="$OPENSHIFT_DATA_DIR/jdk/jdk1.8.0_05"
 
 if [ ! -d "$JDK8_PATH" ]; then
@@ -9,6 +8,7 @@ if [ ! -d "$JDK8_PATH" ]; then
 	tar -zxf jdk-8u5-linux-x64.tar.gz
 fi
 
+export PATH=$JDK8_PATH:$PATH
 
 # The logic to start up your application should be put in this
 # script. The application will work only if it binds to
