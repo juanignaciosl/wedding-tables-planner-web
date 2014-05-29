@@ -28,8 +28,7 @@ define(["angular", "common"], function(angular) {
       	console.dir(data);
       	return playRoutes.controllers.PlannerController.plan().post(removeCircularStructure(data)).then(function(response) {
       		console.log('response', response);
-      		var capacitiesAndGuests = response.data;
-      		return capacitiesAndGuests;
+      		return response.data;
       	});
       }
     };

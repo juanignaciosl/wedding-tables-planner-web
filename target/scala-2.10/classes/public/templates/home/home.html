@@ -118,8 +118,17 @@
         <h2>4. Solution</h2>
       </div>
     </div>
-    <div ng-repeat="capacityAndGuests in capacitiesAndGuests">
-      <div class="table">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="alert alert-success" ng-show="hardScore >= 0">
+          <strong>Done!</strong> Your guests were arranged according their needs :).
+        </div>
+        <div class="alert alert-danger" ng-show="hardScore < 0">You asked for something impossible :(. We've done
+          our best, but some constraints couldn't be fulfilled. Could you increase the number of tables?</div>
+      </div>
+    </div>
+    <div ng-repeat="capacityAndGuests in capacitiesAndGuests" class="row">
+      <div class="table col-md-12">
         Table for {{ capacityAndGuests.capacity }}: <span class="guest" ng-repeat="guest in capacityAndGuests.guests">{{
           guest }}; </span>
       </div>

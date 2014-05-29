@@ -15,11 +15,13 @@ object PlannerController extends Controller {
   case class AJSSimpleGuest(val name: String)
   case class AJSGuest(val name: String, val loves: List[AJSSimpleGuest] = List(), val hates: List[AJSSimpleGuest] = List(), val knows: List[AJSSimpleGuest])
   case class AJSGuestsAtTable(val capacity: Int, val guests: List[String])
+  case class AJSResult(val tableCompositions: List[AJSGuestsAtTable], hardScore: Int, softScore: Int)
 
   implicit val simpleGuestReads = Json.reads[AJSSimpleGuest]
   implicit val guestReads = Json.reads[AJSGuest]
 
   implicit val guestAtTableWrites = Json.writes[AJSGuestsAtTable]
+  implicit val resultWrites = Json.writes[AJSResult]
 
   def plan = Action(parse.json) { request =>
 
@@ -45,11 +47,11 @@ object PlannerController extends Controller {
     val score = solution.getScore
     Logger.debug(s"Solution (scored $score): $solution")
 
-    val tableCompositions = guestsPerTable.map { case (table, guests) => new AJSGuestsAtTable(table.getCapacity, guests.map(_.getId()).toList) }
+    val tableCompositions: List[AJSGuestsAtTable] = (guestsPerTable.map { case (table, guests) => new AJSGuestsAtTable(table.getCapacity, guests.map(_.getId()).toList) }).to[List]
 
     Logger.debug(s"Sending $tableCompositions")
 
-    Ok(Json.toJson(tableCompositions))
+    Ok(Json.toJson(new AJSResult(tableCompositions, score.getHardScore, score.getSoftScore)))
   }
 
 }

@@ -210,7 +210,9 @@ define([ "angular" ], function(angular) {
 					keyboard : false
 				});
 				plannerService.plan(guestsAndTables()).then(function(response) {
-					$scope.capacitiesAndGuests = response;
+					$scope.hardScore = response.hardScore;
+					$scope.softScore = response.softScore;
+					$scope.capacitiesAndGuests = response.tableCompositions;
 					$('#waiting-modal').modal('hide');
 				});
 			}
