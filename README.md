@@ -23,4 +23,4 @@ This is a Play app, ready to run in a DIY OpenShift Cartridge. It will install J
 
 Create a DIY app:
 
-``rhc app-create weddingtablesplanner diy-0.1 --from-code git://github.com/juanignaciosl/wedding-tables-planner-web.git``
+``rhc app-create weddingtableplanner2 diy-0.1 --from-code git://github.com/juanignaciosl/wedding-tables-planner-web.gitrhc app-create weddingtablesplanner diy-0.1 --from-code git://github.com/juanignaciosl/wedding-tables-planner-web.git``
