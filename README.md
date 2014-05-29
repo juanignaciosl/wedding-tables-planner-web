@@ -16,6 +16,7 @@ The site is based on [Play+AngularJS+RequireJS Scala Activator template](http://
 * Run via `activator run`
 * Go to [localhost:9000](http://localhost:9000)
 
+
 ## OpenShift deployment
 
 This is a Play app, ready to run in a DIY OpenShift Cartridge. It will install JDK 8 at first start.
