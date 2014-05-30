@@ -1,15 +1,17 @@
-<div id="home">
+<div id="home" class="container">
   <div class="page-header">
     <h1>
-      Wedding Table Planner <small>version 0.2</small>
+      Wedding Table Planner <small>v0.3</small>
     </h1>
   </div>
+
   <div class="panel panel-default">
     <div class="panel-body">
       <p>
-        Disclaimer: this is just a toy to show <strong>OptaPlanner</strong> potential, and it's only tested with Chrome.
-        If you find a bug you can report at <a href="https://github.com/juanignaciosl/wedding-tables-planner-web">the
-          GitHub repo</a>, where you can check the source code. More information at <a
+        Disclaimer: this is just a toy to show <strong>OptaPlanner</strong> potential, and it's only tested with modern
+        browsers (also mobile! :) ). If you find a bug you can report at <a
+          href="https://github.com/juanignaciosl/wedding-tables-planner-web">the GitHub repo</a>, where you can check
+        the source code. More information at <a
           href="http://www.juanignaciosl.com/ingenieria-del-software/wedding-tables-planner">juanignaciosl.com</a>. <a
           href="https://twitter.com/juanignaciosl" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow
           @juanignaciosl</a>
@@ -41,30 +43,32 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-4">
+  <div class="row" data-ng-cloak>
+    <div class="col-xs-12 col-sm-6 col-md-4">
       <div ng-class="['input-group', newGuestGroupName.length > 0 ? '' : 'disabled']">
         <span class="input-group-addon">New guest group</span> <input ng-model="newGuestGroupName" type="text"
-          class="form-control" placeholder="Unique group name"> <span class="input-group-addon clickable"
+          class="form-control" placeholder="Unique group name" id="newGuestGroupName"> <span class="input-group-addon clickable"
           ng-click="newGuestGroupName.length > 0 && addGuestGroup()"><span class="glyphicon glyphicon-plus"></span></span>
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-xs-12 col-sm-6 col-md-4">
       <div ng-class="['input-group', newGuestName.length > 0 ? '' : 'disabled']">
         <span class="input-group-addon">New guest</span> <input ng-model="newGuestName" type="text" class="form-control"
-          placeholder="Unique name"> <span class="input-group-addon clickable"
+          placeholder="Unique name" id="newGuestName"> <span class="input-group-addon clickable"
           ng-click="newGuestName.length > 0 && addGuest()"><span class="glyphicon glyphicon-plus"></span></span>
       </div>
     </div>
   </div>
 
-  <div class="row">
-    <guest-group class="col-md-12" group="allGuestsGroup" selected="true" selectable="false"></guest-group>
+  <div class="row" data-ng-cloak>
+    <div class="col-md-12">
+      <guest-group group="allGuestsGroup" selected="true" selectable="false"></guest-group>
+    </div>
   </div>
 
-  <div class="row guest-groups">
-    <guest-group class="col-md-3" ng-repeat="guestGroup in guestGroups" group="guestGroup" selectable="true"></guest-group>
+  <div class="row guest-groups" data-ng-cloak>
+    <guest-group class="col-xs-6 col-md-3" ng-repeat="guestGroup in guestGroups" group="guestGroup" selectable="true"></guest-group>
   </div>
 
   <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="guestRelationshipModal"
@@ -80,7 +84,7 @@
           the same table)</button>
         <button type="button" class="btn btn-danger" ng-click="addRelationship('hates')">Hate (won't be sat at
           the same table)</button>
-        <p>The site will try to sit in the same table as many known guests as possible.</p>
+        <p>Our penguins will try to sit in the same table as many known guests as possible.</p>
       </div>
     </div>
   </div>
@@ -91,8 +95,8 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-3">
+  <div class="row" data-ng-cloak>
+    <div class="col-xs-8 col-sm-4 col-md-3">
       <div class="input-group">
         <span class="input-group-addon">New table</span> <input ng-model="newTable" type="number" min="1"
           class="form-control table"> <span class="input-group-addon clickable" ng-click="addTable()"><span
@@ -101,10 +105,10 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" data-ng-cloak>
     <div class="col-md-12">
-      Table sizes (#{{ tables.length }}): <span class="table" ng-repeat="table in tables track by $index">{{
-        table }} <span class="glyphicon glyphicon-minus" ng-click="removeTable(table)"></span>
+      Tables (total: {{ tables.length }}): <span class="table" ng-repeat="table in tables track by $index">Table
+        for {{ table }} <span class="glyphicon glyphicon-minus" ng-click="removeTable(table)"></span>
       </span>
     </div>
   </div>

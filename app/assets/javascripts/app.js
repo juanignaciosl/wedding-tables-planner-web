@@ -1,3 +1,7 @@
+if (typeof console == "undefined") {
+    this.console = { log: function (msg) {  } };
+}
+
 /**
  * The app module, as both AngularJS as well as RequireJS module.
  * Splitting an app in several Angular modules serves no real purpose in Angular 1.0/1.1.

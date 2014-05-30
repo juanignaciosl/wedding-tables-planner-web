@@ -43,6 +43,16 @@ define([ "angular" ], function(angular) {
 			templateUrl : '/assets/templates/home/guest.html',
 			link : function($scope, $element, attrs, guestGroupController) {
 				var guest = $scope.guest;
+				$scope.isSelected = false;
+				
+				$scope.$on('deselectGuests', function() {
+					$scope.isSelected = false;
+				});
+				
+				$scope.selectGuest = function() {
+					$scope.isSelected = !$scope.isSelected;
+					$scope.$emit($scope.isSelected ? 'selectGuest' : 'deselectGuest', guest);
+				}
 				
 				$scope.removeGuest = function() {
 					if(!guestGroupController.group.readOnly || confirm('¿Are you sure you want to remove "'+guest.name+'" from the guest list?')) {

@@ -138,6 +138,8 @@ define([ "angular" ], function(angular) {
 				alert('That guest name is already registered');
 			}
 			$scope.newGuestName = '';
+			
+			document.getElementById('newGuestName').focus();
 		};
 
 		$scope.$on('removeGuest', function(event, guest, group) {
@@ -154,11 +156,15 @@ define([ "angular" ], function(angular) {
 		$scope.$on('addGuestToGroup', function(event, guestName, group) {
 			group.addGuest(findGuest(allGuestsGroup.guests, guestName));
 		});
-
-		$scope.$on('guestsRelationship', function(event, guestName, targetGuest) {
-			$scope.sourceGuest = findGuest(allGuestsGroup.guests, guestName);
+		
+		function askForRelationship(sourceGuest, targetGuest) {
+			$scope.sourceGuest = sourceGuest;
 			$scope.targetGuest = targetGuest;
 			$('#guest-relationship-modal').modal();
+		}
+
+		$scope.$on('guestsRelationship', function(event, guestName, targetGuest) {
+			askForRelationship(findGuest(allGuestsGroup.guests, guestName), targetGuest);
 		});
 
 		$scope.addRelationship = function(relationship) {
@@ -189,6 +195,8 @@ define([ "angular" ], function(angular) {
 				name : $scope.newGuestGroupName
 			}));
 			$scope.newGuestGroupName = '';
+			
+			document.getElementById('newGuestGroupName').focus();
 		};
 
 		$scope.$on('selectGroup', function(event, group) {
@@ -197,6 +205,26 @@ define([ "angular" ], function(angular) {
 
 		$scope.$on('deselectGroup', function(event, group) {
 			selectedGuestGroups.splice(selectedGuestGroups.indexOf(group), 1);
+		});
+		
+		var selectedGuests = [];
+		
+		$scope.$on('selectGuest', function(event, guest) {
+			selectedGuests.push(guest);
+			if(selectedGuests.length == 2) {
+				var source = selectedGuests[0];
+				var target = selectedGuests[1];
+				selectedGuests = [];
+				$scope.$broadcast('deselectGuests');
+				askForRelationship(source, target);
+			}
+		});
+		
+		$scope.$on('deselectGuest', function(event, guest) {
+			var index = selectedGuests.indexOf(guest);
+			if(index >= 0) {
+				selectedGuests.splice(index, 1);
+			}
 		});
 
 		$scope.arrangeGuests = function() {

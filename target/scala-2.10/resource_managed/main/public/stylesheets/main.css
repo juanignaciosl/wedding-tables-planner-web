@@ -1,5 +1,28 @@
 body {
   margin-top: 0px;
+  font-size: 14px;
+}
+@media only screen and (min-device-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+body .input-group-addon,
+body .form-control {
+  font-size: inherit;
+}
+.page-header {
+  margin-top: 10px;
 }
 .basics-nav {
   background-color: #7ece25;
@@ -44,10 +67,18 @@ body {
   margin: 4px;
   padding: 4px 6px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 150%;
   background: #ccc;
   color: white;
   border-radius: .25em;
+}
+.guest-group .guest.selected {
+  -webkit-box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+  -moz-box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+  box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+}
+.guest-group .guest .glyphicon-minus {
+  margin-left: 10px;
 }
 .guest-group .guest .relationship {
   display: block;
@@ -85,6 +116,8 @@ body {
   margin-right: 10px;
 }
 .done-button {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  display: block;
   font-size: 150%;
 }
