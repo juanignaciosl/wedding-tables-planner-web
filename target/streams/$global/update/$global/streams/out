@@ -1,28 +1,28 @@
 [0m[[0minfo[0m] [0mUpdating {file:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/}root...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: wedding-tables-planner#wedding-tables-planner_2.11;0.3.1[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: wedding-tables-planner#wedding-tables-planner_2.11;0.3.3[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36ba8e9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51711c47[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-library;2.11.1[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#twirl-api_2.11;1.0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.0.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#twirl-api_2.11;1.0.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#twirl-api_2.11;1.0.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -59,15 +59,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.apache.commons#commons-lang3;3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.11;2.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play_2.11;2.3.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play_2.11;2.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -526,24 +526,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#requirejs;2.1.11-1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#requirejs;2.1.11-1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#requirejs;2.1.11-1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#requirejs;2.1.11-1[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#requirejs;2.1.11-1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#webjars-locator;0.13 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#webjars-locator;0.13 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#webjars-locator;0.13[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#webjars-locator;0.13[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#webjars-locator;0.13 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -551,15 +551,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#webjars-play_2.11;2.3.0-RC1-1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#webjars-play_2.11;2.3.0-RC1-1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#webjars-play_2.11;2.3.0-RC1-1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#webjars-play_2.11;2.3.0-RC1-1[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#webjars-play_2.11;2.3.0-RC1-1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -627,15 +627,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.webjars#requirejs;2.1.11-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.webjars#webjars-locator;0.14 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.webjars#webjars-locator;0.14 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.drools#drools-core;6.0.1.Final ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.drools#drools-core;6.0.1.Final {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.drools#drools-core;6.0.1.Final[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.drools#drools-core;6.0.1.Final[0m
 [0m[[0mdebug[0m] [0m	found org.drools#drools-core;6.0.1.Final in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.mvel#mvel2;2.1.8.Final ...[0m
@@ -703,15 +703,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.optaplanner#optaplanner-core;6.0.1.Final ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.optaplanner#optaplanner-core;6.0.1.Final {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.optaplanner#optaplanner-core;6.0.1.Final[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.optaplanner#optaplanner-core;6.0.1.Final[0m
 [0m[[0mdebug[0m] [0m	found org.optaplanner#optaplanner-core;6.0.1.Final in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -922,64 +922,64 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->com.thoughtworks.xstream#xstream;1.4.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->com.thoughtworks.xstream#xstream;1.4.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava;17.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;17.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;17.0[0m
 [0m[[0mdebug[0m] [0m	found com.google.guava#guava;17.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#underscorejs;1.6.0-3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#underscorejs;1.6.0-3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#underscorejs;1.6.0-3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#underscorejs;1.6.0-3[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#underscorejs;1.6.0-3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#jquery;2.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#jquery;2.1.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#jquery;2.1.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#jquery;2.1.1[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#jquery;2.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#bootstrap;3.1.1-1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#bootstrap;3.1.1-1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#bootstrap;3.1.1-1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#bootstrap;3.1.1-1[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#bootstrap;3.1.1-1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.webjars#angularjs;1.2.16-2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webjars#angularjs;1.2.16-2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webjars#angularjs;1.2.16-2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.webjars#angularjs;1.2.16-2[0m
 [0m[[0mdebug[0m] [0m	found org.webjars#angularjs;1.2.16-2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1002,10 +1002,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -1262,14 +1262,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -1277,10 +1277,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1321,10 +1321,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
@@ -1374,10 +1374,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -1556,40 +1556,40 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xmlpull#xmlpull;1.1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1612,10 +1612,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -1872,14 +1872,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -1887,10 +1887,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -1931,10 +1931,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
@@ -1987,10 +1987,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -2175,37 +2175,37 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xmlpull#xmlpull;1.1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.3.0 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-test_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-test_2.11;2.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->com.typesafe.play#play_2.11;2.3.0 [compile->master(*)][0m
@@ -3621,21 +3621,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->com.google.code.findbugs#jsr305;2.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.fluentlenium#fluentlenium-festassert;0.9.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.fluentlenium#fluentlenium-festassert;0.9.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -3658,10 +3658,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -3918,14 +3918,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -3933,10 +3933,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -3977,10 +3977,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
@@ -4036,10 +4036,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -4230,42 +4230,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xmlpull#xmlpull;1.1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -4288,10 +4288,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -4548,14 +4548,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -4563,10 +4563,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -4607,10 +4607,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
@@ -4666,10 +4666,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -4860,42 +4860,42 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xmlpull#xmlpull;1.1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -4918,10 +4918,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#twirl-api_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->com.typesafe.play#build-link;2.3.0 [compile->master(*)][0m
@@ -5178,14 +5178,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->javax.transaction#jta;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#requirejs;2.1.11-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play_2.11;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#requirejs;2.1.11-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
@@ -5193,10 +5193,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.13->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-locator;0.13 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-locator;0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-play_2.11;2.3.0-RC1-1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
@@ -5237,10 +5237,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.3->com.fasterxml.jackson.core#jackson-core;2.3.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#webjars-play_2.11;2.3.0-RC1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.mvel#mvel2;2.1.8.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;17.0 {compile=[default(compile)]} => dependency: com.google.guava#guava;13.0.1 {compile=[default(compile)]}[0m
@@ -5302,10 +5302,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.drools#drools-core;6.0.1.Final->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.drools#drools-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.drools#drools-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-api;6.0.1.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.optaplanner#optaplanner-core;6.0.1.Final->org.kie#kie-internal;6.0.1.Final [compile->master(*)][0m
@@ -5508,32 +5508,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xmlpull#xmlpull;1.1.3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.thoughtworks.xstream#xstream;1.4.3->xpp3#xpp3_min;1.1.4c [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.google.guava#guava;17.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#jquery;2.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.optaplanner#optaplanner-core;6.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.google.guava#guava;17.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#underscorejs;1.6.0-3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#jquery;2.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: org.webjars#jquery;1.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.webjars#angularjs;1.2.16-2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#bootstrap;3.1.1-1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.webjars#angularjs;1.2.16-2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.3.0->com.typesafe.play#play_2.11;2.3.0 [compile->master(*)][0m
@@ -6742,23 +6742,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.easytesting#fest-assert;1.4->org.easytesting#fest-util;1.1.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.easytesting#fest-assert;1.4->org.easytesting#fest-util;1.1.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.8.2 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-test_2.11;2.3.0 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-test_2.11;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [docs][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-docs_2.11;2.3.0 [docs->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-docs_2.11;2.3.0 [docs->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.11;2.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-docs_2.11;2.3.0 {docs=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-docs_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-docs_2.11;2.3.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-docs_2.11;2.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-docs_2.11;2.3.0 [docs->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-docs_2.11;2.3.0 [docs->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-docs_2.11;2.3.0 [docs->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-docs_2.11;2.3.0 [docs->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.11;2.3.0->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.11;2.3.0->com.typesafe.play#play_2.11;2.3.0 [compile->master(*)][0m
@@ -7147,19 +7147,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.3.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.11;2.3.0->com.typesafe.play#play-doc_2.11;1.1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-docs_2.11;2.3.0->com.typesafe.play#play-doc_2.11;1.1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->com.typesafe.play#play-docs_2.11;2.3.0 [docs->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->com.typesafe.play#play-docs_2.11;2.3.0 [docs->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-compiler;2.11.1 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-compiler;2.11.1 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-compiler;2.11.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-compiler;2.11.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-compiler;2.11.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-compiler;2.11.1 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->org.scala-lang#scala-library;2.11.1 [compile->default][0m
@@ -7203,8 +7203,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-compiler;2.11.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-compiler;2.11.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-compiler;2.11.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-compiler;2.11.1 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->jline#jline;2.11 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.11 {optional=[compile(*), master(*)]}[0m
@@ -7212,11 +7212,11 @@
 [0m[[0mdebug[0m] [0m	local: revision in cache: jline#jline;2.11[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.11 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.1->jline#jline;2.11 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.1->org.scala-lang#scala-library;2.11.1 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
@@ -7346,19 +7346,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5814ms :: artifacts dl 125ms[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 compile produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 runtime produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 test produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 provided produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 optional produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 compile-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 runtime-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 test-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 plugin produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 sources produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 docs produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 pom produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.1 scala-tool produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5814ms resolve - 125ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9114ms :: artifacts dl 138ms[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 compile produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 runtime produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 test produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 provided produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 optional produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 compile-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 runtime-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 test-internal produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 plugin produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 sources produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 docs produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 pom produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 scala-tool produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (9114ms resolve - 138ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

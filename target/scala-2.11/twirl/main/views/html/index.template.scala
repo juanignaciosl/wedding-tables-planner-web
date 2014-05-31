@@ -52,7 +52,7 @@ Seq[Any](format.raw/*1.4*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Sat May 31 13:10:02 CEST 2014
+                  DATE: Sat May 31 13:13:28 CEST 2014
                   SOURCE: /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/app/views/index.scala.html
                   HASH: 2bb963ec87de7f50d4b312a73a41a04eee27125a
                   MATRIX: 498->1|615->3|871->233|885->239|945->278|1023->330|1046->345|1119->397|1155->434|1186->439|1257->484|1271->490|1332->531|1366->568|1397->572|1438->587|1595->722|1627->727|1688->761|1703->767|1784->827|1819->835|1844->850|1911->895|1974->954|2006->959

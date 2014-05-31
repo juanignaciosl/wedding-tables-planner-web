@@ -4,10 +4,10 @@
 	<info
 		organisation="wedding-tables-planner"
 		module="wedding-tables-planner_2.11"
-		revision="0.3.1"
+		revision="0.3.3"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140531130959"/>
+		date="20140531131327"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

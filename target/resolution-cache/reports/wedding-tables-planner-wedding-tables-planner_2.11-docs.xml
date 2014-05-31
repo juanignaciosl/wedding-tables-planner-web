@@ -4,15 +4,15 @@
 	<info
 		organisation="wedding-tables-planner"
 		module="wedding-tables-planner_2.11"
-		revision="0.3.1"
+		revision="0.3.3"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140531130959"/>
+		date="20140531131327"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-docs_2.11">
 			<revision name="2.3.0" status="release" pubdate="20140530135127" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<metadata-artifact status="no" details="" size="2689" time="0" location="/Users/juanignaciosl/.ivy2/cache/com.typesafe.play/play-docs_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="http://typesafe.artifactoryonline.com/typesafe/releases/com/typesafe/play/play-docs_2.11/2.3.0/play-docs_2.11-2.3.0.pom"/>
-				<caller organisation="wedding-tables-planner" name="wedding-tables-planner_2.11" conf="docs" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.3.1"/>
+				<caller organisation="wedding-tables-planner" name="wedding-tables-planner_2.11" conf="docs" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.3.3"/>
 				<artifacts>
 					<artifact name="play-docs_2.11" type="jar" ext="jar" status="no" details="" size="7476324" time="0" location="/Users/juanignaciosl/.ivy2/cache/com.typesafe.play/play-docs_2.11/jars/play-docs_2.11-2.3.0.jar">
 						<origin-location is-local="false" location="http://typesafe.artifactoryonline.com/typesafe/releases/com/typesafe/play/play-docs_2.11/2.3.0/play-docs_2.11-2.3.0.jar"/>
