@@ -25,15 +25,9 @@ libraryDependencies ++= Seq(
   "org.webjars" % "angularjs" % "1.2.16-2" exclude("org.webjars", "jquery")
 )
 
+RjsKeys.mainConfig := "build.js"
+
 pipelineStages := Seq(rjs, digest, gzip)
-
-RjsKeys.optimize := "none"
-
-LessKeys.compress := true
-
-// The main config file
-// See http://requirejs.org/docs/optimization.html#mainConfigFile
-//requireJsShim := "build.js"
 
 // To completely override the optimization process, use this config option:
 //requireNativePath := Some("node r.js -o name=main out=javascript-min/main.min.js")

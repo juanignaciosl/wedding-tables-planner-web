@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140531111107"/>
+		date="20140531130959"/>
 	<dependencies>
 		<module organisation="org.webjars" name="angularjs">
 			<revision name="1.2.16-2" status="release" pubdate="20140509160905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
