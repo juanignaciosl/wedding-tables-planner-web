@@ -4,7 +4,7 @@ import WebJs._
 
 name := """wedding-tables-planner"""
 
-version := "0.3.1"
+version := "0.3.3"
 
 lazy val root = (project in file(".")).enablePlugins(SbtWeb).enablePlugins(PlayScala)
 
