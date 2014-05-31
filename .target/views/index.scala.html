@@ -3,15 +3,15 @@
   <head>
     <title data-ng-bind="pageTitle">Wedding Tables Planner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
     <link rel="stylesheet" media="screen" href="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("bootstrap.min.css"))" />
     @*-- Add More CSS here -- *@
-    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
     @import play.api.Play.current
     <script>
      @Html(org.webjars.RequireJS.getSetupJavaScript(routes.CdnWebJarAssets.at("").url, current.configuration.getString("contentUrl").orNull))
     </script>
-    <script data-main="@routes.Assets.at(helper.mainScriptSrc(scriptName = "main"))" src="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("require.js"))"></script>
+    <script data-main="@routes.Assets.versioned(helper.mainScriptSrc(scriptName = "main"))" src="@CdnWebJarAssets.getUrl(CdnWebJarAssets.locate("require.js"))"></script>
   </head>
   <body>
     @* -- Main Content -- *@

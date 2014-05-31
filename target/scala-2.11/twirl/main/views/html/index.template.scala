@@ -24,14 +24,14 @@ Seq[Any](format.raw/*1.4*/("""<!DOCTYPE html>
   <head>
     <title data-ng-bind="pageTitle">Wedding Tables Planner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href=""""),_display_(/*6.55*/routes/*6.61*/.Assets.at("images/favicon.png")),format.raw/*6.93*/("""">
+    <link rel="shortcut icon" type="image/png" href=""""),_display_(/*6.55*/routes/*6.61*/.Assets.versioned("images/favicon.png")),format.raw/*6.100*/("""">
     <link rel="stylesheet" media="screen" href=""""),_display_(/*7.50*/CdnWebJarAssets/*7.65*/.getUrl(CdnWebJarAssets.locate("bootstrap.min.css"))),format.raw/*7.117*/("""" />
     """),format.raw/*8.33*/("""
-    """),format.raw/*9.5*/("""<link rel="stylesheet" media="screen" href=""""),_display_(/*9.50*/routes/*9.56*/.Assets.at("stylesheets/main.css")),format.raw/*9.90*/("""">
+    """),format.raw/*9.5*/("""<link rel="stylesheet" media="screen" href=""""),_display_(/*9.50*/routes/*9.56*/.Assets.versioned("stylesheets/main.css")),format.raw/*9.97*/("""">
     """),format.raw/*11.1*/("""    """),format.raw/*11.5*/("""<script>
      """),_display_(/*12.7*/Html(org.webjars.RequireJS.getSetupJavaScript(routes.CdnWebJarAssets.at("").url, current.configuration.getString("contentUrl").orNull))),format.raw/*12.142*/("""
     """),format.raw/*13.5*/("""</script>
-    <script data-main=""""),_display_(/*14.25*/routes/*14.31*/.Assets.at(helper.mainScriptSrc(scriptName = "main"))),format.raw/*14.84*/("""" src=""""),_display_(/*14.92*/CdnWebJarAssets/*14.107*/.getUrl(CdnWebJarAssets.locate("require.js"))),format.raw/*14.152*/(""""></script>
+    <script data-main=""""),_display_(/*14.25*/routes/*14.31*/.Assets.versioned(helper.mainScriptSrc(scriptName = "main"))),format.raw/*14.91*/("""" src=""""),_display_(/*14.99*/CdnWebJarAssets/*14.114*/.getUrl(CdnWebJarAssets.locate("require.js"))),format.raw/*14.159*/(""""></script>
   </head>
   <body>
     """),format.raw/*17.29*/("""
@@ -52,10 +52,10 @@ Seq[Any](format.raw/*1.4*/("""<!DOCTYPE html>
 }
               /*
                   -- GENERATED --
-                  DATE: Fri May 30 21:09:28 CEST 2014
+                  DATE: Sat May 31 09:49:01 CEST 2014
                   SOURCE: /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/app/views/index.scala.html
-                  HASH: 0bf0fbcff94d06b6f0c7a001e29d3b111a7ae4d3
-                  MATRIX: 498->1|615->3|871->233|885->239|937->271|1015->323|1038->338|1111->390|1147->427|1178->432|1249->477|1263->483|1317->517|1351->554|1382->558|1423->573|1580->708|1612->713|1673->747|1688->753|1762->806|1797->814|1822->829|1889->874|1952->933|1984->938
+                  HASH: 2bb963ec87de7f50d4b312a73a41a04eee27125a
+                  MATRIX: 498->1|615->3|871->233|885->239|945->278|1023->330|1046->345|1119->397|1155->434|1186->439|1257->484|1271->490|1332->531|1366->568|1397->572|1438->587|1595->722|1627->727|1688->761|1703->767|1784->827|1819->835|1844->850|1911->895|1974->954|2006->959
                   LINES: 19->1|22->1|27->6|27->6|27->6|28->7|28->7|28->7|29->8|30->9|30->9|30->9|30->9|31->11|31->11|32->12|32->12|33->13|34->14|34->14|34->14|34->14|34->14|34->14|37->17|38->18
                   -- GENERATED --
               */

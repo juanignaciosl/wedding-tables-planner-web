@@ -4,7 +4,7 @@
 		module="wedding-tables-planner_2.11"
 		revision="0.3.1"
 		status="integration"
-		publication="20140530210907"
+		publication="20140531094857"
 	>
 		<description>
 		wedding-tables-planner
@@ -41,16 +41,16 @@
 		<dependency org="org.webjars" name="requirejs" rev="2.1.11-1" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="webjars-locator" rev="0.13" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="webjars-play_2.11" rev="2.3.0-RC1-1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="underscorejs" rev="1.6.0-1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="jquery" rev="1.11.0-1" conf="compile->default(compile)"/>
-		<dependency org="org.webjars" name="bootstrap" rev="3.1.1" conf="compile->default(compile)">
-			<exclude org="org.webjars" module="jquery" name="*" type="*" ext="*" conf="" matcher="exact"/>
-		</dependency>
-		<dependency org="org.webjars" name="angularjs" rev="1.2.14" conf="compile->default(compile)">
-			<exclude org="org.webjars" module="jquery" name="*" type="*" ext="*" conf="" matcher="exact"/>
-		</dependency>
 		<dependency org="org.drools" name="drools-core" rev="6.0.1.Final" conf="compile->default(compile)"/>
 		<dependency org="org.optaplanner" name="optaplanner-core" rev="6.0.1.Final" conf="compile->default(compile)"/>
 		<dependency org="com.google.guava" name="guava" rev="17.0" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="underscorejs" rev="1.6.0-3" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="jquery" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.webjars" name="bootstrap" rev="3.1.1-1" conf="compile->default(compile)">
+			<exclude org="org.webjars" module="jquery" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.webjars" name="angularjs" rev="1.2.16-2" conf="compile->default(compile)">
+			<exclude org="org.webjars" module="jquery" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
 	</dependencies>
 </ivy-module>

@@ -1,0 +1,122 @@
+body {
+  margin-top: 0px;
+  font-size: 14px;
+}
+@media only screen and (min-device-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+body .input-group-addon,
+body .form-control {
+  font-size: inherit;
+}
+.page-header {
+  margin-top: 10px;
+}
+.basics-nav {
+  background-color: #7ece25;
+}
+.basics-nav .navbar-brand {
+  color: #e3ffc7;
+}
+.basics-nav .navbar-nav li a {
+  color: #e3ffc7;
+}
+.basics-nav .navbar-nav .dropdown-menu a {
+  color: #000;
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none;
+}
+#home .row {
+  margin-bottom: 10px;
+}
+.guest-group {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.guest-group.selected {
+  -webkit-box-shadow: 0 0 10px rgba(200, 200, 0, 0.8);
+  -moz-box-shadow: 0 0 10px rgba(200, 200, 0, 0.8);
+  box-shadow: 0 0 10px rgba(200, 200, 0, 0.8);
+}
+.guest-group.selected .panel-heading {
+  font-weight: bold;
+}
+.guest-group .guest {
+  margin: 4px;
+  padding: 4px 6px;
+  display: inline-block;
+  font-size: 150%;
+  background: #ccc;
+  color: white;
+  border-radius: .25em;
+}
+.guest-group .guest.selected {
+  -webkit-box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+  -moz-box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+  box-shadow: 0 0 10px rgba(20, 20, 200, 0.8);
+}
+.guest-group .guest .glyphicon-minus {
+  margin-left: 10px;
+}
+.guest-group .guest .relationship {
+  display: block;
+  margin-left: 10px;
+}
+.guest-group .guest .relationship .related-guest {
+  margin-left: 10px;
+}
+.guest-group .guest .relationship.loves {
+  color: #5cb85c;
+}
+.guest-group .guest .relationship.hates {
+  color: #d9534f;
+}
+.guest-group .guest .relationship.knows {
+  color: #5bc0de;
+}
+.guest-relationship,
+.waiting-modal {
+  padding: 20px;
+}
+.guest-relationship .btn,
+.waiting-modal .btn {
+  width: 100%;
+  margin-bottom: 4px;
+}
+.clickable {
+  cursor: pointer;
+}
+.disabled .clickable {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.table {
+  margin-right: 10px;
+}
+.done-button {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  display: block;
+  font-size: 150%;
+}

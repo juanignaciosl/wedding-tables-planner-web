@@ -13,14 +13,14 @@ libraryDependencies ++= Seq(
   // WebJars infrastructure
   "org.webjars" % "webjars-locator" % "0.13",
   "org.webjars" %% "webjars-play" % "2.3.0-RC1-1",
-  // WebJars dependencies
-  "org.webjars" % "underscorejs" % "1.6.0-1",
-  "org.webjars" % "jquery" % "1.11.0-1",
-  "org.webjars" % "bootstrap" % "3.1.1" exclude("org.webjars", "jquery"),
-  "org.webjars" % "angularjs" % "1.2.14" exclude("org.webjars", "jquery"),
   "org.drools" % "drools-core" % "6.0.1.Final",
   "org.optaplanner" % "optaplanner-core" % "6.0.1.Final",
-  "com.google.guava" % "guava" % "17.0"
+  "com.google.guava" % "guava" % "17.0",
+  // WebJars dependencies
+  "org.webjars" % "underscorejs" % "1.6.0-3",
+  "org.webjars" % "jquery" % "2.1.1",
+  "org.webjars" % "bootstrap" % "3.1.1-1" exclude("org.webjars", "jquery"),
+  "org.webjars" % "angularjs" % "1.2.16-2" exclude("org.webjars", "jquery")
 )
 
 // playScalaSettings

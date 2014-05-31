@@ -1,6 +1,6 @@
 // @SOURCE:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes
-// @HASH:4e58ece05b1d941f255a4cf26f15a63fa7765a24
-// @DATE:Fri May 30 21:09:27 CEST 2014
+// @HASH:fb2cd0ff52007a62efa6933090d6270145dd8bb2
+// @DATE:Sat May 31 09:48:57 CEST 2014
 
 
 import play.core._
@@ -62,12 +62,12 @@ GET     /lib/require.js         controllers.WebJarAssets.requirejs
         
 
 // @LINE:24
-private[this] lazy val controllers_Assets_at4_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
-private[this] lazy val controllers_Assets_at4_invoker = createInvoker(
-controllers.Assets.at(fakeValue[String], fakeValue[String]),
-HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
+private[this] lazy val controllers_Assets_versioned4_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_Assets_versioned4_invoker = createInvoker(
+controllers.Assets.versioned(fakeValue[String], fakeValue[String]),
+HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jsroutes.js""","""controllers.Application.jsRoutes()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """plan""","""controllers.PlannerController.plan"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """webjars/$file<.+>""","""controllers.CdnWebJarAssets.at(file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.Application.index"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """jsroutes.js""","""controllers.Application.jsRoutes()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """plan""","""controllers.PlannerController.plan"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """webjars/$file<.+>""","""controllers.CdnWebJarAssets.at(file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.versioned(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -108,9 +108,9 @@ case controllers_CdnWebJarAssets_at3_route(params) => {
         
 
 // @LINE:24
-case controllers_Assets_at4_route(params) => {
+case controllers_Assets_versioned4_route(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at4_invoker.call(controllers.Assets.at(path, file))
+        controllers_Assets_versioned4_invoker.call(controllers.Assets.versioned(path, file))
    }
 }
         

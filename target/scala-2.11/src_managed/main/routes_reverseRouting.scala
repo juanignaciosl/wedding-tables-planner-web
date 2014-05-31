@@ -1,6 +1,6 @@
 // @SOURCE:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes
-// @HASH:4e58ece05b1d941f255a4cf26f15a63fa7765a24
-// @DATE:Fri May 30 21:09:27 CEST 2014
+// @HASH:fb2cd0ff52007a62efa6933090d6270145dd8bb2
+// @DATE:Sat May 31 09:48:57 CEST 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -54,7 +54,7 @@ class ReverseAssets {
     
 
 // @LINE:24
-def at(file:String): Call = {
+def versioned(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
 }
@@ -137,8 +137,8 @@ class ReverseAssets {
     
 
 // @LINE:24
-def at : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Assets.at",
+def versioned : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Assets.versioned",
    """
       function(file) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
@@ -224,8 +224,8 @@ class ReverseAssets {
     
 
 // @LINE:24
-def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
+def versioned(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Assets.versioned(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
                       
     
