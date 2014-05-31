@@ -1,10 +1,12 @@
 //import play.Project._
+import RjsKeys._
+import WebJs._
 
 name := """wedding-tables-planner"""
 
 version := "0.3.1"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(SbtWeb).enablePlugins(PlayScala)
 
 scalaVersion := "2.11.1"
 
@@ -23,13 +25,11 @@ libraryDependencies ++= Seq(
   "org.webjars" % "angularjs" % "1.2.16-2" exclude("org.webjars", "jquery")
 )
 
-// playScalaSettings
-//play.Project.playScalaSettings
-
 pipelineStages := Seq(rjs, digest, gzip)
 
-// This tells Play to optimize this file and its dependencies
-// requireJs += "main.js"
+RjsKeys.optimize := "none"
+
+LessKeys.compress := true
 
 // The main config file
 // See http://requirejs.org/docs/optimization.html#mainConfigFile

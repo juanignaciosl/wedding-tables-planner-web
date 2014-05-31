@@ -3,6 +3,7 @@
 
   // -- DEV RequireJS config --
   requirejs.config({
+  	optimize: "none",
     // Packages = top-level folders; loads a contained file named "main.js"
     packages: ["common", "home" ],
     shim: {

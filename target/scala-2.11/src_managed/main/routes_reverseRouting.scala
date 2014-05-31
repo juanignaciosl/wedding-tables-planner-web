@@ -1,6 +1,6 @@
 // @SOURCE:/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes
-// @HASH:fb2cd0ff52007a62efa6933090d6270145dd8bb2
-// @DATE:Sat May 31 09:48:57 CEST 2014
+// @HASH:05e5043d208d83f2538c39224e2668c24c77d7e0
+// @DATE:Sat May 31 11:11:08 CEST 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -54,9 +54,9 @@ class ReverseAssets {
     
 
 // @LINE:24
-def versioned(file:String): Call = {
+def versioned(file:Asset): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
-   Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
+   Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[Asset]].unbind("file", file))
 }
                         
     
@@ -141,7 +141,7 @@ def versioned : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.versioned",
    """
       function(file) {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[Asset]].javascriptUnbind + """)("file", file)})
       }
    """
 )
@@ -224,8 +224,8 @@ class ReverseAssets {
     
 
 // @LINE:24
-def versioned(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Assets.versioned(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
+def versioned(path:String, file:Asset): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Assets.versioned(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "versioned", Seq(classOf[String], classOf[Asset]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
                       
     
