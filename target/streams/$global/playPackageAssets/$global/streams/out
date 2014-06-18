@@ -40,8 +40,6 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/25c456833967184adff6d120eb6bef7c-angular-locale_cs-cz.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/bootstrap/less/99687ae557c694afa64210dcc3fd5242-mixins.less[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/bootstrap/less/99687ae557c694afa64210dcc3fd5242-mixins.less[0m
-[0m[[0mdebug[0m] [0m	public/javascripts/home/59efe0e4d5b7c15fb88f6320b449ee8d-controllers.js.gz[0m
-[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/javascripts/home/59efe0e4d5b7c15fb88f6320b449ee8d-controllers.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_in.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_in.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/5ae69803cee77531dce8475a1bc4e78b-angular.min.js.gz[0m
@@ -154,6 +152,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_es-cl.js.md5[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_es-ea.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_es-ea.js.gz.md5[0m
+[0m[[0mdebug[0m] [0m	public/templates/home/5cd420d1c94a64e57f2971069ae03d91-home.html.gz[0m
+[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/templates/home/5cd420d1c94a64e57f2971069ae03d91-home.html.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/angular-animate.min.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/angular-animate.min.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/c3dcc66d0575931380333e2643a46efd-angular-locale_es-419.js.gz[0m
@@ -856,8 +856,6 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/rjs/build/lib/angularjs/i18n/angular-locale_ja.js[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/962d2fff44964fea31b328701a8ebe35-angular-locale_de-lu.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/962d2fff44964fea31b328701a8ebe35-angular-locale_de-lu.js.gz[0m
-[0m[[0mdebug[0m] [0m	public/templates/home/fdf815774cc2dde7f08960df7ae3ec86-home.html[0m
-[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/templates/home/fdf815774cc2dde7f08960df7ae3ec86-home.html[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_ar-sa.js.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_ar-sa.js.md5[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_sr-cyrl-rs.js.md5[0m
@@ -1306,6 +1304,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/underscorejs/76a4b6b415473adacbcede58ddff0f78-webjars-requirejs.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_sv-se.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_sv-se.js.gz[0m
+[0m[[0mdebug[0m] [0m	public/templates/home/5cd420d1c94a64e57f2971069ae03d91-home.html[0m
+[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/templates/home/5cd420d1c94a64e57f2971069ae03d91-home.html[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/c8cda24631ae473a8ac84ee86f02d7ed-angular-locale_el.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/c8cda24631ae473a8ac84ee86f02d7ed-angular-locale_el.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/7bc3eb208609c90512484bb9ba86d929-angular-locale_fa.js.gz[0m
@@ -2242,8 +2242,6 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_en-sg.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_ar-sy.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_ar-sy.js.gz[0m
-[0m[[0mdebug[0m] [0m	public/javascripts/home/59efe0e4d5b7c15fb88f6320b449ee8d-controllers.js[0m
-[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/javascripts/home/59efe0e4d5b7c15fb88f6320b449ee8d-controllers.js[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_de-li.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_de-li.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/28a641251aeeb4b821706bf432fdc11a-angular-locale_es-gq.js.gz[0m
@@ -2328,8 +2326,6 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/c6c85dbfda5bd0318fd6552a4577247d-angular-locale_ro-ro.js[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_in.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_in.js.gz[0m
-[0m[[0mdebug[0m] [0m	public/templates/home/fdf815774cc2dde7f08960df7ae3ec86-home.html.gz[0m
-[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/templates/home/fdf815774cc2dde7f08960df7ae3ec86-home.html.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/bootstrap/less/labels.less[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/web-modules/main/webjars/lib/bootstrap/less/labels.less[0m
 [0m[[0mdebug[0m] [0m	public/lib/bootstrap/less/popovers.less[0m
@@ -2908,6 +2904,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/lib/angularjs/i18n/angular-locale_es.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_sr-cyrl-rs.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_sr-cyrl-rs.js.gz.md5[0m
+[0m[[0mdebug[0m] [0m	public/javascripts/home/07a7cabc2a15a3d94fd758703b493d5f-controllers.js[0m
+[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/javascripts/home/07a7cabc2a15a3d94fd758703b493d5f-controllers.js[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/6daa591d9c30596abfe951372ed202f7-angular-locale_en-zw.js.gz[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/6daa591d9c30596abfe951372ed202f7-angular-locale_en-zw.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_es-pa.js.gz[0m
@@ -3774,6 +3772,8 @@
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/bootstrap/less/jumbotron.less.md5[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/angular-locale_es-py.js.gz.md5[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/digest/lib/angularjs/i18n/angular-locale_es-py.js.gz.md5[0m
+[0m[[0mdebug[0m] [0m	public/javascripts/home/07a7cabc2a15a3d94fd758703b493d5f-controllers.js.gz[0m
+[0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/gzipCompress/javascripts/home/07a7cabc2a15a3d94fd758703b493d5f-controllers.js.gz[0m
 [0m[[0mdebug[0m] [0m	public/lib[0m
 [0m[[0mdebug[0m] [0m	  /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/web/web-modules/main/webjars/lib[0m
 [0m[[0mdebug[0m] [0m	public/lib/angularjs/i18n/f6ec14bd4d1d9fe668c7f1153f772fd3-angular-locale_en-vg.js.gz[0m

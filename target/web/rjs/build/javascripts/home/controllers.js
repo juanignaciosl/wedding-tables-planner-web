@@ -96,7 +96,7 @@ define([ "angular" ], function(angular) {
 	"use strict";
 
 	/** Controls the index page */
-	var HomeCtrl = function($scope, $rootScope, $location, plannerService) {
+	var HomeCtrl = function($scope, $rootScope, $location, $anchorScroll, plannerService) {
 
 		$scope.newGuestName = '';
 		$scope.newGuestGroupName = '';
@@ -242,6 +242,8 @@ define([ "angular" ], function(angular) {
 					$scope.softScore = response.softScore;
 					$scope.capacitiesAndGuests = response.tableCompositions;
 					$('#waiting-modal').modal('hide');
+					$location.hash('solution-bottom');
+					$anchorScroll();
 				});
 			}
 		};
@@ -271,7 +273,7 @@ define([ "angular" ], function(angular) {
 		};
 
 	};
-	HomeCtrl.$inject = [ "$scope", "$rootScope", "$location", "plannerService" ];
+	HomeCtrl.$inject = [ "$scope", "$rootScope", "$location", "$anchorScroll", "plannerService" ];
 
 	return {
 		HomeCtrl : HomeCtrl
