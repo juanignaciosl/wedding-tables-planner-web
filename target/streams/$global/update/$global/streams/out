@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies wedding-tables-planner#wedding-tables-planner_2.11;0.3.3->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c867795[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1414c49f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -7346,7 +7346,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6601ms :: artifacts dl 89ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5456ms :: artifacts dl 92ms[0m
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 compile produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 runtime produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 test produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-test.xml[0m
@@ -7360,5 +7360,5 @@
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 docs produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 pom produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for wedding-tables-planner#wedding-tables-planner_2.11;0.3.3 scala-tool produced in /Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/resolution-cache/reports/wedding-tables-planner-wedding-tables-planner_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6601ms resolve - 89ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (5456ms resolve - 92ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

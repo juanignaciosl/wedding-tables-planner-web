@@ -7,7 +7,7 @@
 		revision="0.3.3"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140619070902"/>
+		date="20140619193732"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-test_2.11">
 			<revision name="2.3.0" status="release" pubdate="20140618071520" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
