@@ -7,27 +7,27 @@
 		revision="0.3.3"
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140618201804"/>
+		date="20140619070902"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
-			<revision name="2.11.1" status="release" pubdate="20140520100308" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
+			<revision name="2.11.1" status="release" pubdate="20140520100308" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="2363" time="1660" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-compiler/ivy-2.11.1.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-compiler/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="3101" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-compiler/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.pom"/>
 				<caller organisation="wedding-tables-planner" name="wedding-tables-planner_2.11" conf="scala-tool" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.3.3"/>
 				<artifacts>
-					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="13449765" time="12920" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.1.jar">
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="13449765" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.2" status="release" pubdate="20140520101040" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+			<revision name="1.0.2" status="release" pubdate="20140520101040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2518" time="418" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.11.1"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="successful" details="" size="648678" time="1534" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar">
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="648678" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -46,40 +46,40 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.1" status="release" pubdate="20140416112222" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+			<revision name="1.0.1" status="release" pubdate="20140416112222" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2156" time="545" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.1.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="2.11.1"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="successful" details="" size="419701" time="5260" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar">
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="419701" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.11.1" status="release" pubdate="20140520100246" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+			<revision name="2.11.1" status="release" pubdate="20140520100246" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1568" time="566" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-reflect/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="4372892" time="5771" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4372892" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="true" searched="true" default="false" conf="default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master" position="1">
+			<revision name="2.11.1" status="release" pubdate="20140520100221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master" position="1">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1424" time="1504" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="true" original-local-location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-library/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-library/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.pom"/>
 				<caller organisation="wedding-tables-planner" name="wedding-tables-planner_2.11" conf="scala-tool" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.3.3"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.0.2"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5538130" time="16845" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5538130" time="0" location="/Users/juanignaciosl/Development/play-2.2.1/framework/../repository/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"/>
 					</artifact>
 				</artifacts>
