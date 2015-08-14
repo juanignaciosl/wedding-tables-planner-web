@@ -1,5 +1,5 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/application.conf,/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/openshift.conf,/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/scala-2.11/classes/openshift.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/prod.conf,/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/scala-2.11/classes/prod.conf)[0m
-[0m[[0mdebug[0m] [0m	(/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/conf/routes,/Users/juanignaciosl/Development/workspaceKepler/wedding-tables-planner-site/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alejandroaguilar/git/wedding-tables-planner-web/conf/application.conf,/Users/alejandroaguilar/git/wedding-tables-planner-web/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alejandroaguilar/git/wedding-tables-planner-web/conf/openshift.conf,/Users/alejandroaguilar/git/wedding-tables-planner-web/target/scala-2.11/classes/openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alejandroaguilar/git/wedding-tables-planner-web/conf/prod.conf,/Users/alejandroaguilar/git/wedding-tables-planner-web/target/scala-2.11/classes/prod.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/alejandroaguilar/git/wedding-tables-planner-web/conf/routes,/Users/alejandroaguilar/git/wedding-tables-planner-web/target/scala-2.11/classes/routes)[0m
