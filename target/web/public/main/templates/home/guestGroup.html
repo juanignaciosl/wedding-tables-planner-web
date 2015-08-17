@@ -1,0 +1,8 @@
+<div class="panel panel-default guest-group" ng-class="isSelected ? 'selected' : ''" ui-on-Drop="onDrop($event,$data,men)">
+  <div class="panel-heading" ng-class="selectable ? 'clickable' : ''" ng-click="selectGroup()">
+    <h3 class="panel-title">{{ group.name }}</h3>
+  </div>
+  <div class="guest-group">
+    <guest ng-repeat="guest in group.guests" guest="guest"></guest>
+  </div>
+</div>
